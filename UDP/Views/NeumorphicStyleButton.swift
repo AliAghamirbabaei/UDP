@@ -22,7 +22,6 @@ struct NeumorphicStyleButton: View {
             .cornerRadius(6)
             .shadow(color: Color.darkShadow, radius: 3, x: 2, y: 2)
             .shadow(color: Color.lightShadow, radius: 3, x: -2, y: -2)
-            
         }
 }
 

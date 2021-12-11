@@ -19,6 +19,7 @@ class UDP {
             
         self.connection?.stateUpdateHandler = { (newState) in
             print("This is stateUpdateHandler:")
+            
             switch (newState) {
                 case .ready:
                     print("State: Ready\n")

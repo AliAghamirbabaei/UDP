@@ -13,6 +13,7 @@ struct ContentView: View {
     @State var UDPPort: String = ""
     @State var UDPMessage: String = ""
     var udp = UDP()
+    
     var body: some View {
         ZStack {
             Color.background.ignoresSafeArea()
