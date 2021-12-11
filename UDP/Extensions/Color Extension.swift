@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//Color
 extension Color {
     static let lightShadow = Color(red: 255 / 255, green: 255 / 255, blue: 255 / 255)
     static let darkShadow = Color(red: 163 / 255, green: 177 / 255, blue: 198 / 255)
