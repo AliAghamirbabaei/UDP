@@ -10,11 +10,10 @@ import Network
 
 class UDP {
     var connection: NWConnection?
-    
 
-    func connectToUDP(_ hostUDP: NWEndpoint.Host, _ portUDP: NWEndpoint.Port) {
+    func connectToUDP(_ hostUDP: NWEndpoint.Host, _ portUDP: NWEndpoint.Port, _ messageUDP: String) {
         // Transmited message:
-        let messageToUDP = "Test message"
+        let messageToUDP = messageUDP
 
         self.connection = NWConnection(host: hostUDP, port: portUDP, using: .udp)
             
