@@ -1,2 +1,2 @@
 # UDP
-Simple app for send UDP Packet in SwiftUI
+Simple app for send UDP packet in SwiftUI
